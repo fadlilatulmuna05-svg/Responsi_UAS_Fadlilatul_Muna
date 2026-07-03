@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#fff7f0,#f3e2d2);
+    color:#4e342e;
+}
+
+/* HEADER */
+.header{
+    background:#6d4c41;
+    color:#fff;
+    padding:15px;
+    text-align:center;
+    font-size:18px;
+}
+
+/* TITLE */
+.title{
+    text-align:center;
+    margin:15px 0;
+}
+
+.title h2{
+    font-size:26px;
+}
+
+.title p{
+    font-size:13px;
+    color:#666;
+}
+
+/* CONTAINER */
+.container{
+    display:flex;
+    gap:15px;
+    padding:20px;
+    flex-wrap:wrap;
+}
+
+/* CARD */
+.card{
+    background:#fff;
+    padding:15px;
+    border-radius:12px;
+    box-shadow:0 6px 15px rgba(0,0,0,.1);
+}
+
+/* FORM */
+.form{
+    flex:1;
+    min-width:250px;
+}
+
+label{
+    font-size:13px;
+}
+
+input{
+    width:100%;
+    padding:9px;
+    margin:5px 0 10px;
+    border:1px solid #ddd;
+    border-radius:8px;
+}
+
+/* BUTTON SIMPAN */
+#btnSimpan{
+    width:100%;
+    padding:10px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    background:#6d4c41;
+    color:#fff;
+    font-weight:600;
+    transition:.2s;
+}
+
+#btnSimpan:hover{
+    background:#5d4037;
+}
+
+/* TABLE */
+.table{
+    flex:2;
+    min-width:300px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th,td{
+    padding:10px;
+    text-align:center;
+    border-bottom:1px solid #eee;
+}
+
+th{
+    background:#f3e2d2;
+}
+
+/* ========================= */
+/* BUTTON EDIT & HAPUS KECIL */
+/* ========================= */
+
+.btn-edit,
+.btn-hapus{
+    font-size:12px;
+    padding:5px 7px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    margin:2px;
+    display:inline-flex;
+    align-items:center;
+    gap:5px;
+    transition:.2s;
+}
+
+/* EDIT */
+.btn-edit{
+    background:#f9a825;
+    color:#fff;
+}
+
+.btn-edit:hover{
+    background:#f57f17;
+    transform:scale(1.05);
+}
+
+/* HAPUS */
+.btn-hapus{
+    background:#c62828;
+    color:#fff;
+}
+
+.btn-hapus:hover{
+    background:#b71c1c;
+    transform:scale(1.05);
+}
+#installBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #6d4c41;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}

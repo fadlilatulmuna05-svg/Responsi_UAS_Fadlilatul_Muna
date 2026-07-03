@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MyStore | CRUD Produk</title>
+
+<link rel="stylesheet" href="css/crud.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+<!-- PWA -->
+<link rel="manifest" href="./manifest.json">
+<meta name="theme-color" content="#6d4c41">
+</head>
+
+<body>
+
+<header class="header">
+    <h1><i class="fa fa-store"></i> MyStore Produk</h1>
+</header>
+
+<div class="title">
+    <h2>Kelola Produk Toko</h2>
+    <p>Tambah, edit, dan hapus data produk</p>
+</div>
+
+<div class="container">
+
+    <!-- FORM -->
+    <div class="card form">
+
+        <input type="hidden" id="id">
+
+        <label>Nama Produk</label>
+        <input type="text" id="nama">
+
+        <label>Harga</label>
+        <input type="number" id="harga">
+
+        <label>Stok</label>
+        <input type="number" id="stok">
+
+        <button id="btnSimpan">
+            <i class="fa fa-save"></i> Simpan
+        </button>
+
+    </div>
+
+    <!-- TABLE -->
+    <div class="card table">
+
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama</th>
+                    <th>Harga</th>
+                    <th>Stok</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+
+            <tbody id="dataProduk"></tbody>
+        </table>
+
+    </div>
+
+</div>
+
+<!-- INSTALL BUTTON -->
+<button id="installBtn" onclick="installApp()" style="display:none;">
+    Install App
+</button>
+
+<script src="js/crud.js"></script>
+
+</body>
+</html>

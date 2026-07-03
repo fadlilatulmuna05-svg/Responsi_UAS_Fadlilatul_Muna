@@ -1,0 +1,20 @@
+{
+  "name": "MyStore CRUD",
+  "short_name": "MyStore",
+  "start_url": "crud.html",
+  "display": "standalone",
+  "background_color": "#6d4c41",
+  "theme_color": "#6d4c41",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
