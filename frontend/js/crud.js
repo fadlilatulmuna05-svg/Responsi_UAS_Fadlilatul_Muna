@@ -1,4 +1,4 @@
-const API = "https://responsi-uas-fadlilatul-muna-c7r7.vercel.app";
+const API = "https://responsi-uas-fadlilatul-muna-c7r7.vercel.app/products";
 /* ================= LOAD DATA ================= */
 async function load(){
     try {
