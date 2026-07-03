@@ -4,7 +4,7 @@ const API = "http://localhost:3000/products";
 /* ================= LOAD DATA ================= */
 async function load(){
     try {
-        const res = await fetch("http://localhost:3000/products");
+        const res = await fetch(API);
         const data = await res.json();
 
         let html = "";
