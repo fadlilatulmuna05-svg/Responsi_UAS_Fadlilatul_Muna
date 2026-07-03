@@ -1,6 +1,4 @@
-
-const API = "http://localhost:3000/products";
-
+const API = "https://responsi-uas-fadlilatul-muna-c7r7.vercel.app";
 /* ================= LOAD DATA ================= */
 async function load(){
     try {
